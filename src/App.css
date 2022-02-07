@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+html,body{ 
+  max-width: 100vw;
+  background-color: #a09d9c;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div{
+  max-width: 100%;
+  max-height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card2 {
+  background-color: #ffffff;
+ 
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(7, 7, 7);
+  padding: 10px;
+ margin-top: 20px;
+ border-radius: 5%;
+}
+img{
+  padding: 10px;
+  max-width: 98%;
+border-radius: 5%;
+margin-left: -8px;
+margin-top: 5px;
+  
+}
+.card3 {
+  background-color: #0f1733;
+ 
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+ margin-top: 20px;
+ border-radius: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.imagetext{
+    display: flex;
+    flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+  .image1{
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .image2{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .final{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .imagegreen{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+  }
+  .imageblue{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+  }
+  .profile{
+    width: 40px;
+    height: 40px;
+  }
+  .greenno{
+    color: rgb(15, 204, 218);
+  }
+  .opacity{
+    opacity: 0.6;
+  }
+@media screen and (min-width: 480px) {
+  body {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+  }
+  div{
+    max-width: 100%;
+    max-height: 0%;
+  }
+  .card2{
+    max-width: 30%;
+    max-height: 40%;
+    margin-left: 30%;
+
+  }
+  .card3{
+    max-width: 30%;
+    max-height: 40%;
+    margin-left: 30%;
+
+  }
+  .imagegreen{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  .imageblue{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
   }
 }
